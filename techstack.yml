@@ -2,11 +2,11 @@ repo_name: RMPearson/wpscan
 report_id: a2e57671fb507bc0fd2b6b95c6d018b6
 version: 0.1
 repo_type: Public
-timestamp: '2023-12-21T04:53:15+00:00'
+timestamp: '2024-01-05T08:29:46+00:00'
 requested_by: erwanlr
 provider: github
 branch: master
-detected_tools_count: 603
+detected_tools_count: 612
 tools:
 - name: Hogan.js
   description: A compiler for the Mustache templating language
@@ -30,6 +30,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/RMPearson/wpscan/blob/master/spec/fixtures/dynamic_finders/plugin_version/ad-inserter/javascript_var/js/ad-inserter.js
   detection_source: spec/fixtures/dynamic_finders/plugin_version/ad-inserter/javascript_var/js/ad-inserter.js
   last_updated_by: Ryan Dewhurst
   last_updated_on: 2018-09-26 19:12:01.000000000 Z
@@ -69,6 +70,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
+  detection_source_url: https://github.com/RMPearson/wpscan/blob/master/spec/fixtures/finders/db_exports/dump.sql
   detection_source: spec/fixtures/finders/db_exports/dump.sql
   last_updated_by: Ryan Dewhurst
   last_updated_on: 2018-09-26 19:12:01.000000000 Z
@@ -81,6 +83,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1009/tuHsaI2U.png
+  detection_source_url: https://github.com/RMPearson/wpscan/blob/master/spec/fixtures/dynamic_finders/plugin_version/traktivity/composer_file/package.json
   detection_source: spec/fixtures/dynamic_finders/plugin_version/traktivity/composer_file/package.json
   last_updated_by: Ryan Dewhurst
   last_updated_on: 2018-09-26 19:12:01.000000000 Z
@@ -108,6 +111,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source_url: https://github.com/RMPearson/wpscan/blob/master/spec/fixtures/dynamic_finders/plugin_version/oauth2-server/composer_file/package.json
   detection_source: spec/fixtures/dynamic_finders/plugin_version/oauth2-server/composer_file/package.json
   last_updated_by: erwanlr
   last_updated_on: 2020-07-04 09:27:49.000000000 Z
@@ -132,6 +136,7 @@ tools:
   category: Languages & Frameworks
   sub_category: CSS Pre-processors / Extensions
   image_url: https://img.stackshare.io/service/2202/72d087642cfce6fef6f2dabec5bf49e8_400x400.png
+  detection_source_url: https://github.com/RMPearson/wpscan/blob/master/spec/fixtures/dynamic_finders/plugin_version/404-solution/composer_file/package.json
   detection_source: spec/fixtures/dynamic_finders/plugin_version/404-solution/composer_file/package.json
   last_updated_by: Ryan Dewhurst
   last_updated_on: 2018-09-26 19:12:01.000000000 Z
@@ -159,6 +164,7 @@ tools:
   category: Languages & Frameworks
   sub_category: CSS Pre-processors / Extensions
   image_url: https://img.stackshare.io/service/1174/bourbon.png
+  detection_source_url: https://github.com/RMPearson/wpscan/blob/master/spec/fixtures/dynamic_finders/plugin_version/frontend-dialog/composer_file/package.json
   detection_source: spec/fixtures/dynamic_finders/plugin_version/frontend-dialog/composer_file/package.json
   last_updated_by: Ryan Dewhurst
   last_updated_on: 2018-09-26 19:12:01.000000000 Z
@@ -199,6 +205,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Microframeworks (Backend)
   image_url: https://img.stackshare.io/service/2350/638632.png
+  detection_source_url: https://github.com/RMPearson/wpscan/blob/master/spec/fixtures/dynamic_finders/plugin_version/penny-black/composer_file/composer.json
   detection_source: spec/fixtures/dynamic_finders/plugin_version/penny-black/composer_file/composer.json
   last_updated_by: erwanlr
   last_updated_on: 2023-12-01 16:25:49.000000000 Z
@@ -226,6 +233,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Front-End Frameworks
   image_url: https://img.stackshare.io/service/1904/default_44d81cb9fadbc3688b7e91a6d5217d0ea5358b57.png
+  detection_source_url: https://github.com/RMPearson/wpscan/blob/master/spec/fixtures/dynamic_finders/plugin_version/copysmith-for-woocommerce/composer_file/package.json
   detection_source: spec/fixtures/dynamic_finders/plugin_version/copysmith-for-woocommerce/composer_file/package.json
   last_updated_by: erwanlr
   last_updated_on: 2021-12-05 17:09:29.000000000 Z
@@ -238,6 +246,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Front-End Frameworks
   image_url: https://img.stackshare.io/service/2015/GN559Lfb.png
+  detection_source_url: https://github.com/RMPearson/wpscan/blob/master/spec/fixtures/dynamic_finders/plugin_version/materializer/composer_file/package.json
   detection_source: spec/fixtures/dynamic_finders/plugin_version/materializer/composer_file/package.json
   last_updated_by: Ryan Dewhurst
   last_updated_on: 2018-09-26 19:12:01.000000000 Z
@@ -264,6 +273,7 @@ tools:
   category: Libraries
   sub_category: State Management Library
   image_url: https://img.stackshare.io/service/9129/default_c85dc717f6faf8f246f92d33fca5399a349b294f.png
+  detection_source_url: https://github.com/RMPearson/wpscan/blob/master/spec/fixtures/dynamic_finders/plugin_version/wp-pwa/composer_file/package.json
   detection_source: spec/fixtures/dynamic_finders/plugin_version/wp-pwa/composer_file/package.json
   last_updated_by: erwanlr
   last_updated_on: 2019-03-30 07:20:14.000000000 Z
@@ -276,6 +286,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/RMPearson/wpscan/blob/master/spec/fixtures/dynamic_finders/plugin_version/blockify/composer_file/package.json
   detection_source: spec/fixtures/dynamic_finders/plugin_version/blockify/composer_file/package.json
   last_updated_by: erwanlr
   last_updated_on: 2022-07-15 18:54:56.000000000 Z
@@ -287,6 +298,7 @@ tools:
   category: Languages & Frameworks
   sub_category: CSS Pre-processors / Extensions
   image_url: https://img.stackshare.io/service/6361/default_8c8faac34fdcb5b696503f5166b5232ad0adcf6e.png
+  detection_source_url: https://github.com/RMPearson/wpscan/blob/master/spec/fixtures/dynamic_finders/plugin_version/checkoutwc-lite/composer_file/package.json
   detection_source: spec/fixtures/dynamic_finders/plugin_version/checkoutwc-lite/composer_file/package.json
   last_updated_by: erwanlr
   last_updated_on: 2022-12-21 20:15:18.000000000 Z
@@ -299,6 +311,7 @@ tools:
   category: Languages & Frameworks
   sub_category: CSS Pre-processors / Extensions
   image_url: https://img.stackshare.io/service/3339/rlFcjEdI.png
+  detection_source_url: https://github.com/RMPearson/wpscan/blob/master/spec/fixtures/dynamic_finders/plugin_version/advanced-image-comparison-for-elementor/composer_file/package.json
   detection_source: spec/fixtures/dynamic_finders/plugin_version/advanced-image-comparison-for-elementor/composer_file/package.json
   last_updated_by: erwanlr
   last_updated_on: 2021-05-29 11:22:21.000000000 Z
@@ -366,6 +379,7 @@ tools:
   category: Languages & Frameworks
   sub_category: CSS Pre-processors / Extensions
   image_url: https://img.stackshare.io/service/1171/jCR2zNJV.png
+  detection_source_url: https://github.com/RMPearson/wpscan/blob/master/spec/fixtures/dynamic_finders/plugin_version/advanced-image-comparison-for-elementor/composer_file/package.json
   detection_source: spec/fixtures/dynamic_finders/plugin_version/advanced-image-comparison-for-elementor/composer_file/package.json
   last_updated_by: erwanlr
   last_updated_on: 2021-05-29 11:22:21.000000000 Z
@@ -392,6 +406,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Front-End Frameworks
   image_url: https://img.stackshare.io/service/21978/default_43fb9ca37debcb28caad4f2c831e072783441496.jpg
+  detection_source_url: https://github.com/RMPearson/wpscan/blob/master/spec/fixtures/dynamic_finders/plugin_version/friends/composer_file/package.json
   detection_source: spec/fixtures/dynamic_finders/plugin_version/friends/composer_file/package.json
   last_updated_by: erwanlr
   last_updated_on: 2021-03-20 14:01:15.000000000 Z
@@ -404,6 +419,7 @@ tools:
   category: Languages & Frameworks
   sub_category: CSS Pre-processors / Extensions
   image_url: https://img.stackshare.io/service/1172/stylus.png
+  detection_source_url: https://github.com/RMPearson/wpscan/blob/master/spec/fixtures/dynamic_finders/plugin_version/elfsight-addons-for-elementor/composer_file/package.json
   detection_source: spec/fixtures/dynamic_finders/plugin_version/elfsight-addons-for-elementor/composer_file/package.json
   last_updated_by: erwanlr
   last_updated_on: 2020-02-24 12:29:13.000000000 Z
@@ -416,6 +432,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Front-End Frameworks
   image_url: https://img.stackshare.io/service/1854/New_Project__5_.png
+  detection_source_url: https://github.com/RMPearson/wpscan/blob/master/spec/fixtures/dynamic_finders/plugin_version/woorousell/composer_file/package.json
   detection_source: spec/fixtures/dynamic_finders/plugin_version/woorousell/composer_file/package.json
   last_updated_by: erwanlr
   last_updated_on: 2018-11-03 19:27:52.000000000 Z
@@ -428,6 +445,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/1197/logosf_positif_03_icon.png
+  detection_source_url: https://github.com/RMPearson/wpscan/blob/master/spec/fixtures/dynamic_finders/plugin_version/cloudflare/composer_file/composer.json
   detection_source: spec/fixtures/dynamic_finders/plugin_version/cloudflare/composer_file/composer.json
   last_updated_by: Ryan Dewhurst
   last_updated_on: 2018-09-26 19:12:01.000000000 Z
@@ -440,6 +458,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Front-End Frameworks
   image_url: https://img.stackshare.io/service/8158/default_660b7c41c3ba489cb581eec89c04655404258c19.png
+  detection_source_url: https://github.com/RMPearson/wpscan/blob/master/spec/fixtures/dynamic_finders/plugin_version/blocks-for-eventbrite/composer_file/package.json
   detection_source: spec/fixtures/dynamic_finders/plugin_version/blocks-for-eventbrite/composer_file/package.json
   last_updated_by: erwanlr
   last_updated_on: 2020-04-11 11:46:26.000000000 Z
@@ -466,6 +485,7 @@ tools:
   category: Languages & Frameworks
   sub_category: CSS Pre-processors / Extensions
   image_url: https://img.stackshare.io/service/8074/default_d2b16fd6997fb2e164de645a34f9b8d5a880d999.png
+  detection_source_url: https://github.com/RMPearson/wpscan/blob/master/spec/fixtures/dynamic_finders/plugin_version/a-note-above-wp-dashboard-notes/composer_file/package.json
   detection_source: spec/fixtures/dynamic_finders/plugin_version/a-note-above-wp-dashboard-notes/composer_file/package.json
   last_updated_by: erwanlr
   last_updated_on: 2021-05-21 12:50:31.000000000 Z
@@ -492,6 +512,7 @@ tools:
   category: Libraries
   sub_category: State Management Library
   image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/RMPearson/wpscan/blob/master/spec/fixtures/dynamic_finders/plugin_version/via-crm-forms/composer_file/package.json
   detection_source: spec/fixtures/dynamic_finders/plugin_version/via-crm-forms/composer_file/package.json
   last_updated_by: erwanlr
   last_updated_on: 2020-01-18 11:20:43.000000000 Z
@@ -519,6 +540,7 @@ tools:
   category: Libraries
   sub_category: State Management Library
   image_url: https://img.stackshare.io/service/6705/6128107.png
+  detection_source_url: https://github.com/RMPearson/wpscan/blob/master/spec/fixtures/dynamic_finders/plugin_version/oauth2-server/composer_file/package.json
   detection_source: spec/fixtures/dynamic_finders/plugin_version/oauth2-server/composer_file/package.json
   last_updated_by: erwanlr
   last_updated_on: 2020-07-04 09:27:49.000000000 Z
@@ -530,6 +552,7 @@ tools:
   category: Application Hosting
   sub_category: Realtime Backend / API
   image_url: https://img.stackshare.io/service/10894/nchan_icon.png
+  detection_source_url: https://github.com/RMPearson/wpscan/blob/master/spec/fixtures/dynamic_finders/plugin_version/complete-open-graph/composer_file/package.json
   detection_source: spec/fixtures/dynamic_finders/plugin_version/complete-open-graph/composer_file/package.json
   last_updated_by: Ryan Dewhurst
   last_updated_on: 2018-09-26 19:12:01.000000000 Z
@@ -556,6 +579,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/service/847/66db62603f426a8fc6664081811be6d4.png
+  detection_source_url: https://github.com/RMPearson/wpscan/blob/master/spec/fixtures/dynamic_finders/plugin_version/my-eyes-are-up-here/composer_file/package.json
   detection_source: spec/fixtures/dynamic_finders/plugin_version/my-eyes-are-up-here/composer_file/package.json
   last_updated_by: Ryan Dewhurst
   last_updated_on: 2018-09-26 19:12:01.000000000 Z
@@ -581,6 +605,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/2988/4e77LXIo_400x400.png
+  detection_source_url: https://github.com/RMPearson/wpscan/blob/master/wpscan.gemspec
   detection_source: wpscan.gemspec
   last_updated_by: erwanlr
   last_updated_on: 2019-04-29 14:47:33.000000000 Z
@@ -650,6 +675,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Virtual Machine Platforms & Containers
   image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/RMPearson/wpscan
   detection_source: Repo Metadata
 - name: Dotenv
   description: Loads environment variables from .env for Nodejs projects
@@ -660,6 +686,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Server Configuration and Automation
   image_url: https://img.stackshare.io/service/8067/default_90dcb1286af7685c68df319c764b80704df1155b.png
+  detection_source_url: https://github.com/RMPearson/wpscan/blob/master/spec/fixtures/dynamic_finders/plugin_version/copysmith-for-woocommerce/composer_file/package.json
   detection_source: spec/fixtures/dynamic_finders/plugin_version/copysmith-for-woocommerce/composer_file/package.json
   last_updated_by: erwanlr
   last_updated_on: 2021-12-05 17:09:29.000000000 Z
@@ -672,6 +699,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/RMPearson/wpscan/blob/master/spec/fixtures/dynamic_finders/plugin_version/a-note-above-wp-dashboard-notes/composer_file/package.json
   detection_source: spec/fixtures/dynamic_finders/plugin_version/a-note-above-wp-dashboard-notes/composer_file/package.json
   last_updated_by: erwanlr
   last_updated_on: 2021-05-21 12:50:31.000000000 Z
@@ -698,6 +726,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: JS Build Tools / JS Task Runners
   image_url: https://img.stackshare.io/service/25166/default_2dcc9286a150737a14625d18f6f93747f72be430.png
+  detection_source_url: https://github.com/RMPearson/wpscan/blob/master/spec/fixtures/dynamic_finders/plugin_version/smart-admin-menu-filter/composer_file/package.json
   detection_source: spec/fixtures/dynamic_finders/plugin_version/smart-admin-menu-filter/composer_file/package.json
   last_updated_by: erwanlr
   last_updated_on: 2021-09-10 11:06:38.000000000 Z
@@ -709,6 +738,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/RMPearson/wpscan
   detection_source: Repo Metadata
 - name: GitHub Actions
   description: Automate your workflow from idea to production
@@ -718,6 +748,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/RMPearson/wpscan/blob/master/.github/workflows/build.yml
   detection_source: ".github/workflows/build.yml"
   last_updated_by: dependabot[bot]
   last_updated_on: 2023-09-05 10:39:42.000000000 Z
@@ -742,6 +773,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/1945/mzh2bRes_400x400.png
+  detection_source_url: https://github.com/RMPearson/wpscan/blob/master/spec/fixtures/dynamic_finders/plugin_version/best-restaurant-menu-by-pricelisto/composer_file/package.json
   detection_source: spec/fixtures/dynamic_finders/plugin_version/best-restaurant-menu-by-pricelisto/composer_file/package.json
   last_updated_by: erwanlr
   last_updated_on: 2020-01-25 12:28:16.000000000 Z
@@ -782,6 +814,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: JS Build Tools / JS Task Runners
   image_url: https://img.stackshare.io/service/4588/0N0srAVN_400x400.jpg
+  detection_source_url: https://github.com/RMPearson/wpscan/blob/master/spec/fixtures/dynamic_finders/plugin_version/clicksco-offerstack/composer_file/package.json
   detection_source: spec/fixtures/dynamic_finders/plugin_version/clicksco-offerstack/composer_file/package.json
   last_updated_by: Ryan Dewhurst
   last_updated_on: 2018-09-26 19:12:01.000000000 Z
@@ -794,6 +827,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Live Reloading
   image_url: https://img.stackshare.io/service/2601/128.png
+  detection_source_url: https://github.com/RMPearson/wpscan/blob/master/spec/fixtures/dynamic_finders/plugin_version/affilicious/composer_file/package.json
   detection_source: spec/fixtures/dynamic_finders/plugin_version/affilicious/composer_file/package.json
   last_updated_by: Ryan Dewhurst
   last_updated_on: 2018-09-26 19:12:01.000000000 Z
@@ -820,6 +854,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source_url: https://github.com/RMPearson/wpscan/blob/master/spec/fixtures/dynamic_finders/plugin_version/oauth2-server/composer_file/package.json
   detection_source: spec/fixtures/dynamic_finders/plugin_version/oauth2-server/composer_file/package.json
   last_updated_by: erwanlr
   last_updated_on: 2020-07-04 09:27:49.000000000 Z
@@ -832,6 +867,7 @@ tools:
   category: Monitoring
   sub_category: Log Management
   image_url: https://img.stackshare.io/service/6379/24411296.png
+  detection_source_url: https://github.com/RMPearson/wpscan/blob/master/spec/fixtures/dynamic_finders/plugin_version/tiket-payment-invoicing/composer_file/package.json
   detection_source: spec/fixtures/dynamic_finders/plugin_version/tiket-payment-invoicing/composer_file/package.json
   last_updated_by: erwanlr
   last_updated_on: 2021-03-06 11:29:39.000000000 Z
@@ -886,6 +922,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Headless Browsers
   image_url: https://img.stackshare.io/service/1832/phantomjs.png
+  detection_source_url: https://github.com/RMPearson/wpscan/blob/master/spec/fixtures/dynamic_finders/plugin_version/mystyle-custom-product-designer/composer_file/package.json
   detection_source: spec/fixtures/dynamic_finders/plugin_version/mystyle-custom-product-designer/composer_file/package.json
   last_updated_by: erwanlr
   last_updated_on: 2019-03-30 07:20:14.000000000 Z
@@ -912,6 +949,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Javascript Testing Framework
   image_url: https://img.stackshare.io/service/1421/b706f022230831a3d391db504a139e21.png
+  detection_source_url: https://github.com/RMPearson/wpscan/blob/master/spec/fixtures/dynamic_finders/plugin_version/eight-day-week-print-workflow/composer_file/package.json
   detection_source: spec/fixtures/dynamic_finders/plugin_version/eight-day-week-print-workflow/composer_file/package.json
   last_updated_by: Ryan Dewhurst
   last_updated_on: 2018-09-26 19:12:01.000000000 Z
@@ -964,6 +1002,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  detection_source_url: https://github.com/RMPearson/wpscan/blob/master/wpscan.gemspec
   detection_source: wpscan.gemspec
   last_updated_by: Ryan Dewhurst
   last_updated_on: 2018-09-26 19:12:01.000000000 Z
@@ -976,6 +1015,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: JS Build Tools / JS Task Runners
   image_url: https://img.stackshare.io/service/21657/default_6d25db7b303e81b370f739f3ec38bf1d044091e0.jpg
+  detection_source_url: https://github.com/RMPearson/wpscan/blob/master/spec/fixtures/dynamic_finders/plugin_version/minterpress/composer_file/package.json
   detection_source: spec/fixtures/dynamic_finders/plugin_version/minterpress/composer_file/package.json
   last_updated_by: erwanlr
   last_updated_on: 2022-05-10 12:54:53.000000000 Z
@@ -1015,6 +1055,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
+  detection_source_url: https://github.com/RMPearson/wpscan/blob/master/spec/fixtures/dynamic_finders/plugin_version/tiket-payment-invoicing/composer_file/package.json
   detection_source: spec/fixtures/dynamic_finders/plugin_version/tiket-payment-invoicing/composer_file/package.json
   last_updated_by: erwanlr
   last_updated_on: 2021-03-06 11:29:39.000000000 Z
@@ -1054,6 +1095,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/RMPearson/wpscan/blob/master/spec/fixtures/dynamic_finders/plugin_version/birthday-widget-for-buddypress/composer_file/package.json
   detection_source: spec/fixtures/dynamic_finders/plugin_version/birthday-widget-for-buddypress/composer_file/package.json
   last_updated_by: erwanlr
   last_updated_on: 2021-12-05 17:09:29.000000000 Z
@@ -1079,6 +1121,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: JS Build Tools / JS Task Runners
   image_url: https://img.stackshare.io/service/4423/zE8RTn9E_400x400.jpg
+  detection_source_url: https://github.com/RMPearson/wpscan/blob/master/spec/fixtures/dynamic_finders/plugin_version/depay-payments-for-woocommerce/composer_file/package.json
   detection_source: spec/fixtures/dynamic_finders/plugin_version/depay-payments-for-woocommerce/composer_file/package.json
   last_updated_by: erwanlr
   last_updated_on: 2023-03-19 18:28:09.000000000 Z
@@ -1104,6 +1147,7 @@ tools:
   category: Collaboration
   sub_category: Project Management
   image_url: https://img.stackshare.io/service/6925/preview.png
+  detection_source_url: https://github.com/RMPearson/wpscan/blob/master/spec/fixtures/dynamic_finders/plugin_version/animation-block/composer_file/package.json
   detection_source: spec/fixtures/dynamic_finders/plugin_version/animation-block/composer_file/package.json
   last_updated_by: erwanlr
   last_updated_on: 2018-10-20 10:56:47.000000000 Z
@@ -1116,6 +1160,7 @@ tools:
   category: Application Utilities
   sub_category: Activity Feeds as a Service
   image_url: https://img.stackshare.io/service/2213/mBSAJI_h_400x400.jpg
+  detection_source_url: https://github.com/RMPearson/wpscan/blob/master/spec/fixtures/dynamic_finders/plugin_version/nrby-events/composer_file/package.json
   detection_source: spec/fixtures/dynamic_finders/plugin_version/nrby-events/composer_file/package.json
   last_updated_by: erwanlr
   last_updated_on: 2022-07-15 18:54:56.000000000 Z
@@ -1128,6 +1173,7 @@ tools:
   category: Libraries
   sub_category: Javascript Utilities & Libraries
   image_url: https://img.stackshare.io/service/11991/bb.png
+  detection_source_url: https://github.com/RMPearson/wpscan/blob/master/spec/fixtures/dynamic_finders/plugin_version/mapifylite/composer_file/package.json
   detection_source: spec/fixtures/dynamic_finders/plugin_version/mapifylite/composer_file/package.json
   last_updated_by: erwanlr
   last_updated_on: 2021-04-09 14:32:55.000000000 Z
@@ -1139,6 +1185,7 @@ tools:
   category: Libraries
   sub_category: Javascript Utilities & Libraries
   image_url: https://img.stackshare.io/service/21958/default_1224eb8d21537064d2f315c3e3f1e6a0518c3c59.png
+  detection_source_url: https://github.com/RMPearson/wpscan/blob/master/spec/fixtures/dynamic_finders/plugin_version/best-restaurant-menu-by-pricelisto/composer_file/package.json
   detection_source: spec/fixtures/dynamic_finders/plugin_version/best-restaurant-menu-by-pricelisto/composer_file/package.json
   last_updated_by: erwanlr
   last_updated_on: 2020-01-25 12:28:16.000000000 Z
@@ -1150,6 +1197,7 @@ tools:
   category: Libraries
   sub_category: CocoaPods Packages
   image_url: https://img.stackshare.io/service/2426/e1cbdef9d4b11484049a033886578e54_400x400.png
+  detection_source_url: https://github.com/RMPearson/wpscan/blob/master/spec/fixtures/dynamic_finders/plugin_version/traktivity/composer_file/package.json
   detection_source: spec/fixtures/dynamic_finders/plugin_version/traktivity/composer_file/package.json
   last_updated_by: Ryan Dewhurst
   last_updated_on: 2018-09-26 19:12:01.000000000 Z
@@ -1188,6 +1236,7 @@ tools:
   category: Application Utilities
   sub_category: Security
   image_url: https://img.stackshare.io/service/4482/dVHQiE0t_400x400.png
+  detection_source_url: https://github.com/RMPearson/wpscan/blob/master/spec/fixtures/dynamic_finders/plugin_version/foreup-forms/composer_file/package.json
   detection_source: spec/fixtures/dynamic_finders/plugin_version/foreup-forms/composer_file/package.json
   last_updated_by: erwanlr
   last_updated_on: 2019-04-26 09:56:26.000000000 Z
@@ -1197,6 +1246,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/7914/shsrNWMg_normal.jpg
+  detection_source_url: https://github.com/RMPearson/wpscan/blob/master/spec/fixtures/dynamic_finders/plugin_version/wp-pwa/composer_file/package.json
   detection_source: spec/fixtures/dynamic_finders/plugin_version/wp-pwa/composer_file/package.json
   last_updated_by: erwanlr
   last_updated_on: 2019-03-30 07:20:14.000000000 Z
@@ -1223,6 +1273,7 @@ tools:
   category: Communications
   sub_category: Large Language Model Tools
   image_url: https://img.stackshare.io/service/48790/default_5b6c6b73f1ff3775c85d2a1ba954cb87e30cbf13.jpg
+  detection_source_url: https://github.com/RMPearson/wpscan/blob/master/spec/fixtures/db/config_backups.txt
   detection_source: spec/fixtures/db/config_backups.txt
   last_updated_by: Ryan Dewhurst
   last_updated_on: 2018-09-26 19:12:01.000000000 Z
@@ -1261,6 +1312,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/8411/R6wl9gWl_normal.jpg
+  detection_source_url: https://github.com/RMPearson/wpscan/blob/master/spec/fixtures/dynamic_finders/plugin_version/nrby-events/composer_file/package.json
   detection_source: spec/fixtures/dynamic_finders/plugin_version/nrby-events/composer_file/package.json
   last_updated_by: erwanlr
   last_updated_on: 2022-07-15 18:54:56.000000000 Z
@@ -1286,6 +1338,7 @@ tools:
   category: Libraries
   sub_category: Javascript Utilities & Libraries
   image_url: https://img.stackshare.io/service/10330/no-img-open-source.png
+  detection_source_url: https://github.com/RMPearson/wpscan/blob/master/spec/fixtures/dynamic_finders/plugin_version/copysmith-for-woocommerce/composer_file/package.json
   detection_source: spec/fixtures/dynamic_finders/plugin_version/copysmith-for-woocommerce/composer_file/package.json
   last_updated_by: erwanlr
   last_updated_on: 2021-12-05 17:09:29.000000000 Z
@@ -1309,6 +1362,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/9170/183678.jpeg
+  detection_source_url: https://github.com/RMPearson/wpscan/blob/master/spec/fixtures/dynamic_finders/plugin_version/bpost-shipping/composer_file/composer.json
   detection_source: spec/fixtures/dynamic_finders/plugin_version/bpost-shipping/composer_file/composer.json
   last_updated_by: erwanlr
   last_updated_on: 2019-03-30 07:20:14.000000000 Z
@@ -1334,6 +1388,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/RMPearson/wpscan
   detection_source: Repo Metadata
 - name: SweetAlert
   description: A beautiful replacement for JavaScript's "alert"
@@ -1344,6 +1399,7 @@ tools:
   category: Libraries
   sub_category: Javascript Utilities & Libraries
   image_url: https://ucarecdn.com/c4c55828-7bcf-4661-8f4f-52745636aafd/
+  detection_source_url: https://github.com/RMPearson/wpscan/blob/master/spec/fixtures/dynamic_finders/plugin_version/best-restaurant-menu-by-pricelisto/composer_file/package.json
   detection_source: spec/fixtures/dynamic_finders/plugin_version/best-restaurant-menu-by-pricelisto/composer_file/package.json
   last_updated_by: erwanlr
   last_updated_on: 2020-01-25 12:28:16.000000000 Z
@@ -1380,6 +1436,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/6650/19343.jpeg
+  detection_source_url: https://github.com/RMPearson/wpscan/blob/master/spec/fixtures/dynamic_finders/plugin_version/template-share-for-elementor/composer_file/package.json
   detection_source: spec/fixtures/dynamic_finders/plugin_version/template-share-for-elementor/composer_file/package.json
   last_updated_by: erwanlr
   last_updated_on: 2023-08-24 07:24:36.000000000 Z
@@ -1389,6 +1446,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/8072/13122722.png
+  detection_source_url: https://github.com/RMPearson/wpscan/blob/master/spec/fixtures/dynamic_finders/plugin_version/animation-block/composer_file/package.json
   detection_source: spec/fixtures/dynamic_finders/plugin_version/animation-block/composer_file/package.json
   last_updated_by: erwanlr
   last_updated_on: 2018-10-20 10:56:47.000000000 Z
@@ -1398,6 +1456,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/6612/ehMiE-wz_normal.jpg
+  detection_source_url: https://github.com/RMPearson/wpscan/blob/master/spec/fixtures/dynamic_finders/plugin_version/blocks-for-eventbrite/composer_file/package.json
   detection_source: spec/fixtures/dynamic_finders/plugin_version/blocks-for-eventbrite/composer_file/package.json
   last_updated_by: erwanlr
   last_updated_on: 2020-04-11 11:46:26.000000000 Z
@@ -1406,6 +1465,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/9527/5502029.jpeg
+  detection_source_url: https://github.com/RMPearson/wpscan/blob/master/spec/fixtures/dynamic_finders/plugin_version/all-in-one-music-player/composer_file/package.json
   detection_source: spec/fixtures/dynamic_finders/plugin_version/all-in-one-music-player/composer_file/package.json
   last_updated_by: erwanlr
   last_updated_on: 2021-06-19 12:08:00.000000000 Z
@@ -1415,6 +1475,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/7945/h7umz7fz_normal.jpg
+  detection_source_url: https://github.com/RMPearson/wpscan/blob/master/spec/fixtures/dynamic_finders/plugin_version/advanced-image-comparison-for-elementor/composer_file/package.json
   detection_source: spec/fixtures/dynamic_finders/plugin_version/advanced-image-comparison-for-elementor/composer_file/package.json
   last_updated_by: erwanlr
   last_updated_on: 2021-05-29 11:22:21.000000000 Z
@@ -1423,6 +1484,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/10577/11071.jpeg
+  detection_source_url: https://github.com/RMPearson/wpscan/blob/master/spec/fixtures/dynamic_finders/plugin_version/all-in-one-music-player/composer_file/package.json
   detection_source: spec/fixtures/dynamic_finders/plugin_version/all-in-one-music-player/composer_file/package.json
   last_updated_by: erwanlr
   last_updated_on: 2021-06-19 12:08:00.000000000 Z
@@ -1432,6 +1494,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/10156/12867925.png
+  detection_source_url: https://github.com/RMPearson/wpscan/blob/master/spec/fixtures/dynamic_finders/plugin_version/wp-pwa/composer_file/package.json
   detection_source: spec/fixtures/dynamic_finders/plugin_version/wp-pwa/composer_file/package.json
   last_updated_by: erwanlr
   last_updated_on: 2019-03-30 07:20:14.000000000 Z
@@ -1440,6 +1503,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/8443/2473585.png
+  detection_source_url: https://github.com/RMPearson/wpscan/blob/master/spec/fixtures/dynamic_finders/plugin_version/apijoin-gumroad/composer_file/package.json
   detection_source: spec/fixtures/dynamic_finders/plugin_version/apijoin-gumroad/composer_file/package.json
   last_updated_by: erwanlr
   last_updated_on: 2020-05-02 10:44:05.000000000 Z
@@ -1448,6 +1512,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/10756/339286.png
+  detection_source_url: https://github.com/RMPearson/wpscan/blob/master/spec/fixtures/dynamic_finders/plugin_version/copysmith-for-woocommerce/composer_file/package.json
   detection_source: spec/fixtures/dynamic_finders/plugin_version/copysmith-for-woocommerce/composer_file/package.json
   last_updated_by: erwanlr
   last_updated_on: 2021-12-05 17:09:29.000000000 Z
@@ -2726,6 +2791,34 @@ tools:
   detection_source: spec/fixtures/dynamic_finders/plugin_version/imagewalk/composer_file/package.json
   last_updated_by: erwanlr
   last_updated_on: 2019-08-24 13:06:52.000000000 Z
+- name: browserslist
+  description: Share target browsers between different front-end tools
+  package_url: https://www.npmjs.com/browserslist
+  version: 4.16.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17198/default_eb6674f470fe213f950fd09d858ebb0f6b6e3dda.png
+  detection_source_url: https://github.com/RMPearson/wpscan/blob/master/spec/fixtures/dynamic_finders/plugin_version/beautiful-image-card/composer_file/package-lock.json
+  detection_source: spec/fixtures/dynamic_finders/plugin_version/template-share-for-elementor/composer_file/package.json
+  last_updated_by: erwanlr
+  last_updated_on: 2023-08-24 07:24:36.000000000 Z
+- name: chalk
+  description: Terminal string styling done right
+  package_url: https://www.npmjs.com/chalk
+  version: 1.1.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15813/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/RMPearson/wpscan/blob/master/spec/fixtures/dynamic_finders/plugin_version/acf-content-analysis-for-yoast-seo/composer_file/package-lock.json
+  detection_source: spec/fixtures/dynamic_finders/plugin_version/animation-block/composer_file/package.json
+  last_updated_by: erwanlr
+  last_updated_on: 2018-10-20 10:56:47.000000000 Z
 - name: classnames
   description: A simple utility for conditionally joining classNames together
   package_url: https://www.npmjs.com/classnames
@@ -2993,6 +3086,20 @@ tools:
   detection_source: spec/fixtures/dynamic_finders/plugin_version/404-solution/composer_file/package.json
   last_updated_by: Ryan Dewhurst
   last_updated_on: 2018-09-26 19:12:01.000000000 Z
+- name: cssnano
+  description: A modular minifier, built on top of the PostCSS ecosystem
+  package_url: https://www.npmjs.com/cssnano
+  version: 3.10.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16102/default_efe4f0184d007a28e793d89a59e058b742bc9177.png
+  detection_source_url: https://github.com/RMPearson/wpscan/blob/master/spec/fixtures/dynamic_finders/plugin_version/bio-links/composer_file/package-lock.json
+  detection_source: spec/fixtures/dynamic_finders/plugin_version/blocks-for-eventbrite/composer_file/package.json
+  last_updated_by: erwanlr
+  last_updated_on: 2020-04-11 11:46:26.000000000 Z
 - name: cz-conventional-changelog
   description: Commitizen adapter following the conventional-changelog format
   package_url: https://www.npmjs.com/cz-conventional-changelog
@@ -3327,6 +3434,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16741/default_6dc099b12d47e378ae121fb53c336fe5d8f0ffc8.png
+  detection_source_url: https://github.com/RMPearson/wpscan/blob/master/spec/fixtures/dynamic_finders/plugin_version/nelio-maps/composer_file/package.json
   detection_source: spec/fixtures/dynamic_finders/plugin_version/nelio-maps/composer_file/package.json
   last_updated_by: erwanlr
   last_updated_on: 2019-03-02 10:43:45.000000000 Z
@@ -3840,6 +3948,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16910/default_ebf16e0c8af5e95030933d9e01479224b6665289.png
+  detection_source_url: https://github.com/RMPearson/wpscan/blob/master/spec/fixtures/dynamic_finders/plugin_version/genesis-responsive-slider/composer_file/package.json
   detection_source: spec/fixtures/dynamic_finders/plugin_version/genesis-responsive-slider/composer_file/package.json
   last_updated_by: Ryan Dewhurst
   last_updated_on: 2018-09-26 19:12:01.000000000 Z
@@ -4850,6 +4959,20 @@ tools:
   detection_source: spec/fixtures/dynamic_finders/plugin_version/a-note-above-wp-dashboard-notes/composer_file/package.json
   last_updated_by: erwanlr
   last_updated_on: 2021-05-21 12:50:31.000000000 Z
+- name: husky
+  description: Prevents bad commit or push
+  package_url: https://www.npmjs.com/husky
+  version: 1.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15831/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/RMPearson/wpscan/blob/master/spec/fixtures/dynamic_finders/plugin_version/themegrill-demo-importer/composer_file/package-lock.json
+  detection_source: spec/fixtures/dynamic_finders/plugin_version/all-in-one-music-player/composer_file/package.json
+  last_updated_by: erwanlr
+  last_updated_on: 2021-06-19 12:08:00.000000000 Z
 - name: identity-obj-proxy
   description: An identity object using ES6 proxies
   package_url: https://www.npmjs.com/identity-obj-proxy
@@ -5128,6 +5251,20 @@ tools:
   detection_source: spec/fixtures/dynamic_finders/plugin_version/mystyle-custom-product-designer/composer_file/package.json
   last_updated_by: erwanlr
   last_updated_on: 2019-03-30 07:20:14.000000000 Z
+- name: laravel-mix
+  description: Laravel Mix is an elegant wrapper around Webpack for the 80% use case
+  package_url: https://www.npmjs.com/laravel-mix
+  version: 1.7.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17350/default_33c3173e7d0e91f7cea0eab9883ca83b157bd4a5.png
+  detection_source_url: https://github.com/RMPearson/wpscan/blob/master/spec/fixtures/dynamic_finders/plugin_version/bio-links/composer_file/package-lock.json
+  detection_source: spec/fixtures/dynamic_finders/plugin_version/advanced-image-comparison-for-elementor/composer_file/package.json
+  last_updated_by: erwanlr
+  last_updated_on: 2021-05-29 11:22:21.000000000 Z
 - name: lazypipe
   description: Use to create an immutable
   package_url: https://www.npmjs.com/lazypipe
@@ -5184,6 +5321,20 @@ tools:
   detection_source: spec/fixtures/dynamic_finders/plugin_version/ithoughts-tooltip-glossary/composer_file/package.json
   last_updated_by: Ryan Dewhurst
   last_updated_on: 2018-09-26 19:12:01.000000000 Z
+- name: lint-staged
+  description: Lint files staged by git
+  package_url: https://www.npmjs.com/lint-staged
+  version: 8.1.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15868/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/RMPearson/wpscan/blob/master/spec/fixtures/dynamic_finders/plugin_version/themegrill-demo-importer/composer_file/package-lock.json
+  detection_source: spec/fixtures/dynamic_finders/plugin_version/all-in-one-music-player/composer_file/package.json
+  last_updated_by: erwanlr
+  last_updated_on: 2021-06-19 12:08:00.000000000 Z
 - name: load-grunt-config
   description: Grunt plugin that lets you break up your Gruntfile config by task
   package_url: https://www.npmjs.com/load-grunt-config
@@ -5375,6 +5526,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18643/default_307f5e470653b390ca19fe4af233f51d7f1b3ed4.png
+  detection_source_url: https://github.com/RMPearson/wpscan/blob/master/spec/fixtures/dynamic_finders/plugin_version/materializer/composer_file/package.json
   detection_source: spec/fixtures/dynamic_finders/plugin_version/materializer/composer_file/package.json
   last_updated_by: Ryan Dewhurst
   last_updated_on: 2018-09-26 19:12:01.000000000 Z
@@ -6584,6 +6736,27 @@ tools:
   detection_source: spec/fixtures/dynamic_finders/plugin_version/advanced-image-comparison-for-elementor/composer_file/package.json
   last_updated_by: erwanlr
   last_updated_on: 2021-05-29 11:22:21.000000000 Z
+- name: semantic-release
+  description: Automated semver compliant package publishing
+  package_url: https://www.npmjs.com/semantic-release
+  version: 15.12.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15935/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
+  detection_source_url: https://github.com/RMPearson/wpscan/blob/master/spec/fixtures/dynamic_finders/plugin_version/wp-pwa/composer_file/package.json
+  detection_source: spec/fixtures/dynamic_finders/plugin_version/wp-pwa/composer_file/package.json
+  last_updated_by: erwanlr
+  last_updated_on: 2019-03-30 07:20:14.000000000 Z
+  vulnerabilities:
+  - name: Secret disclosure when containing characters that become URI encoded
+    cve_id: CVE-2020-26226
+    cve_url: https://github.com/advisories/GHSA-r2j6-p67h-q639
+    detected_date: Aug 22
+    severity: high
+    first_patched: 17.2.3
 - name: semantic-release-cli
   description: Setup automated semver compliant package publishing
   package_url: https://www.npmjs.com/semantic-release-cli
@@ -6608,6 +6781,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16588/default_536789d2630ed352dc721a1c915ab456b7660201.png
+  detection_source_url: https://github.com/RMPearson/wpscan/blob/master/spec/fixtures/dynamic_finders/plugin_version/presentation-block/composer_file/package.json
   detection_source: spec/fixtures/dynamic_finders/plugin_version/presentation-block/composer_file/package.json
   last_updated_by: erwanlr
   last_updated_on: 2022-07-15 18:54:56.000000000 Z
@@ -6860,6 +7034,20 @@ tools:
   detection_source: spec/fixtures/dynamic_finders/plugin_version/elfsight-addons-for-elementor/composer_file/package.json
   last_updated_by: erwanlr
   last_updated_on: 2020-02-24 12:29:13.000000000 Z
+- name: svgo
+  description: Nodejs-based tool for optimizing SVG vector graphics files
+  package_url: https://www.npmjs.com/svgo
+  version: 1.3.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16716/default_e3c0987b80983280e46e6e1723fcfcff50fa4824.png
+  detection_source_url: https://github.com/RMPearson/wpscan/blob/master/spec/fixtures/dynamic_finders/plugin_version/beautiful-image-card/composer_file/package-lock.json
+  detection_source: spec/fixtures/dynamic_finders/plugin_version/apijoin-gumroad/composer_file/package.json
+  last_updated_by: erwanlr
+  last_updated_on: 2020-05-02 10:44:05.000000000 Z
 - name: sweetalert2
   description: A beautiful
   package_url: https://www.npmjs.com/sweetalert2
@@ -7642,6 +7830,20 @@ tools:
   detection_source: spec/fixtures/dynamic_finders/plugin_version/download-list-block-with-icons/composer_file/package.json
   last_updated_by: erwanlr
   last_updated_on: 2022-04-28 12:22:38.000000000 Z
+- name: yup
+  description: Dead simple Object schema validation
+  package_url: https://www.npmjs.com/yup
+  version: 0.26.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17215/default_37d9ccc57ae4d32e7ff46614e4f8bb2c4ddc7964.png
+  detection_source_url: https://github.com/RMPearson/wpscan/blob/master/spec/fixtures/dynamic_finders/plugin_version/themegrill-demo-importer/composer_file/package-lock.json
+  detection_source: spec/fixtures/dynamic_finders/plugin_version/copysmith-for-woocommerce/composer_file/package.json
+  last_updated_by: erwanlr
+  last_updated_on: 2021-12-05 17:09:29.000000000 Z
 - name: 10up/wp_mock
   description: A mocking library to take the pain out of unit testing for WordPress
   package_url: https://packagist.org/10up/wp_mock
@@ -7663,6 +7865,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/RMPearson/wpscan/blob/master/spec/fixtures/dynamic_finders/plugin_version/wpckan/composer_file/composer.json
   detection_source: spec/fixtures/dynamic_finders/plugin_version/wpckan/composer_file/composer.json
   last_updated_by: Ryan Dewhurst
   last_updated_on: 2018-09-26 19:12:01.000000000 Z
@@ -7791,6 +7994,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/RMPearson/wpscan/blob/master/spec/fixtures/dynamic_finders/plugin_version/universal-package-systems-shipping-extension/composer_file/composer.json
   detection_source: spec/fixtures/dynamic_finders/plugin_version/universal-package-systems-shipping-extension/composer_file/composer.json
   last_updated_by: erwanlr
   last_updated_on: 2020-02-24 12:29:13.000000000 Z
@@ -7854,6 +8058,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/RMPearson/wpscan/blob/master/spec/fixtures/dynamic_finders/plugin_version/user-access-manager/composer_file/composer.json
   detection_source: spec/fixtures/dynamic_finders/plugin_version/user-access-manager/composer_file/composer.json
   last_updated_by: Ryan Dewhurst
   last_updated_on: 2018-09-26 19:12:01.000000000 Z
@@ -7865,6 +8070,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/RMPearson/wpscan/blob/master/spec/fixtures/dynamic_finders/plugin_version/wp-vagrantize/composer_file/composer.json
   detection_source: spec/fixtures/dynamic_finders/plugin_version/wp-vagrantize/composer_file/composer.json
   last_updated_by: Ryan Dewhurst
   last_updated_on: 2018-09-26 19:12:01.000000000 Z
@@ -8036,6 +8242,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/RMPearson/wpscan/blob/master/spec/fixtures/dynamic_finders/plugin_version/universal-package-systems-shipping-extension/composer_file/composer.json
   detection_source: spec/fixtures/dynamic_finders/plugin_version/universal-package-systems-shipping-extension/composer_file/composer.json
   last_updated_by: erwanlr
   last_updated_on: 2020-02-24 12:29:13.000000000 Z
@@ -8088,6 +8295,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/RMPearson/wpscan/blob/master/spec/fixtures/dynamic_finders/plugin_version/inxpress-shipping-extension/composer_file/composer.json
   detection_source: spec/fixtures/dynamic_finders/plugin_version/inxpress-shipping-extension/composer_file/composer.json
   last_updated_by: erwanlr
   last_updated_on: 2021-07-30 16:30:56.000000000 Z
@@ -8127,6 +8335,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/RMPearson/wpscan/blob/master/spec/fixtures/dynamic_finders/plugin_version/user-feedback/composer_file/composer.json
   detection_source: spec/fixtures/dynamic_finders/plugin_version/user-feedback/composer_file/composer.json
   last_updated_by: Ryan Dewhurst
   last_updated_on: 2018-09-26 19:12:01.000000000 Z
@@ -8203,6 +8412,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/RMPearson/wpscan/blob/master/spec/fixtures/dynamic_finders/plugin_version/universal-package-systems-shipping-extension/composer_file/composer.json
   detection_source: spec/fixtures/dynamic_finders/plugin_version/universal-package-systems-shipping-extension/composer_file/composer.json
   last_updated_by: erwanlr
   last_updated_on: 2020-02-24 12:29:13.000000000 Z
@@ -8215,6 +8425,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/RMPearson/wpscan/blob/master/spec/fixtures/dynamic_finders/plugin_version/integracao-erede-por-piggly/composer_file/composer.json
   detection_source: spec/fixtures/dynamic_finders/plugin_version/integracao-erede-por-piggly/composer_file/composer.json
   last_updated_by: erwanlr
   last_updated_on: 2021-10-02 11:14:02.000000000 Z
@@ -8239,6 +8450,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/RMPearson/wpscan/blob/master/spec/fixtures/dynamic_finders/plugin_version/cloudflare/composer_file/composer.json
   detection_source: spec/fixtures/dynamic_finders/plugin_version/cloudflare/composer_file/composer.json
   last_updated_by: Ryan Dewhurst
   last_updated_on: 2018-09-26 19:12:01.000000000 Z
@@ -8264,6 +8476,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/RMPearson/wpscan/blob/master/spec/fixtures/dynamic_finders/plugin_version/visualcaptcha/composer_file/composer.json
   detection_source: spec/fixtures/dynamic_finders/plugin_version/visualcaptcha/composer_file/composer.json
   last_updated_by: Ryan Dewhurst
   last_updated_on: 2018-09-26 19:12:01.000000000 Z
@@ -8353,6 +8566,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/RMPearson/wpscan/blob/master/spec/fixtures/dynamic_finders/plugin_version/vstack/composer_file/composer.json
   detection_source: spec/fixtures/dynamic_finders/plugin_version/vstack/composer_file/composer.json
   last_updated_by: erwanlr
   last_updated_on: 2021-07-19 14:24:57.000000000 Z
@@ -8391,6 +8605,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/RMPearson/wpscan/blob/master/spec/fixtures/dynamic_finders/plugin_version/cloudflare/composer_file/composer.json
   detection_source: spec/fixtures/dynamic_finders/plugin_version/cloudflare/composer_file/composer.json
   last_updated_by: Ryan Dewhurst
   last_updated_on: 2018-09-26 19:12:01.000000000 Z
@@ -8441,6 +8656,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/package/packagist/image.png
+  detection_source_url: https://github.com/RMPearson/wpscan/blob/master/spec/fixtures/dynamic_finders/plugin_version/force-refresh/composer_file/composer.json
   detection_source: spec/fixtures/dynamic_finders/plugin_version/force-refresh/composer_file/composer.json
   last_updated_by: erwanlr
   last_updated_on: 2019-03-30 07:20:14.000000000 Z
