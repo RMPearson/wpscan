@@ -216,7 +216,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [RMPearson/wpscan](https://github.com/RMPearson/wpscan)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|603<br/>Tools used|12/21/23 <br/>Report generated|
+|612<br/>Tools used|01/05/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -1211,9 +1211,9 @@ Full tech stack [here](/techstack.md)
 </table>
 
 
-## <img src='https://img.stackshare.io/group.svg' /> Open source packages (486)</h2>
+## <img src='https://img.stackshare.io/group.svg' /> Open source packages (495)</h2>
 
-## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (416)
+## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (425)
 
 |NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
 |:------|:------|:------|:------|:------|:------|
@@ -1306,6 +1306,8 @@ Full tech stack [here](/techstack.md)
 |[browser-sync](https://www.npmjs.com/browser-sync)|v2.22.0|05/21/21|erwanlr |Apache-2.0|N/A|
 |[browser-sync-webpack-plugin](https://www.npmjs.com/browser-sync-webpack-plugin)|v1.2.0|05/21/21|erwanlr |MIT|N/A|
 |[browserify-shim](https://www.npmjs.com/browserify-shim)|v3.8.14|08/24/19|erwanlr |MIT|N/A|
+|[browserslist](https://www.npmjs.com/browserslist)|v4.16.7|08/24/23|erwanlr |MIT|N/A|
+|[chalk](https://www.npmjs.com/chalk)|v1.1.3|10/20/18|erwanlr |MIT|N/A|
 |[classnames](https://www.npmjs.com/classnames)|v2.3.1|12/28/18|erwanlr |MIT|N/A|
 |[clean-css](https://www.npmjs.com/clean-css)|v4.1.9|03/19/23|erwanlr |MIT|[](https://github.com/advisories/GHSA-wxhq-pm8v-cw75) (Low)|
 |[clean-webpack-plugin](https://www.npmjs.com/clean-webpack-plugin)|v3.0.0|07/15/22|erwanlr |MIT|N/A|
@@ -1324,6 +1326,7 @@ Full tech stack [here](/techstack.md)
 |[crypto-browserify](https://www.npmjs.com/crypto-browserify)|v3.12.0|05/10/22|erwanlr |MIT|N/A|
 |[crypto-js](https://www.npmjs.com/crypto-js)|v4.0.0|03/06/21|erwanlr |MIT|[CVE-2023-46233](https://github.com/advisories/GHSA-xwcq-pm8m-c4vf) (Critical)|
 |[css-mqpacker](https://www.npmjs.com/css-mqpacker)|v4.0.0|09/26/18|Ryan Dewhurst |MIT|N/A|
+|[cssnano](https://www.npmjs.com/cssnano)|v3.10.0|04/11/20|erwanlr |MIT|N/A|
 |[cz-conventional-changelog](https://www.npmjs.com/cz-conventional-changelog)|v2.1.0|03/30/19|erwanlr |MIT|N/A|
 |[debounce](https://www.npmjs.com/debounce)|v1.2.1|12/21/22|erwanlr |MIT|N/A|
 |[del](https://www.npmjs.com/del)|v4.1.1|09/26/18|Ryan Dewhurst |MIT|N/A|
@@ -1455,6 +1458,7 @@ Full tech stack [here](/techstack.md)
 |[he](https://www.npmjs.com/he)|v1.1.1|07/11/23|erwanlr |MIT|N/A|
 |[hoek](https://www.npmjs.com/hoek)|v2.16.3|03/19/23|erwanlr |BSD-3-Clause|[CVE-2018-3728](https://github.com/advisories/GHSA-jp4x-w63m-7wgm) (High)|
 |[html-webpack-plugin](https://www.npmjs.com/html-webpack-plugin)|v3.2.0|05/21/21|erwanlr |MIT|N/A|
+|[husky](https://www.npmjs.com/husky)|v1.3.1|06/19/21|erwanlr |MIT|N/A|
 |[identity-obj-proxy](https://www.npmjs.com/identity-obj-proxy)|v3.0.0|09/10/21|erwanlr |MIT|N/A|
 |[image-webpack-loader](https://www.npmjs.com/image-webpack-loader)|v6.0.0|05/02/20|erwanlr |MIT|N/A|
 |[imagemin-mozjpeg](https://www.npmjs.com/imagemin-mozjpeg)|v6.0.0|06/29/19|erwanlr |MIT|N/A|
@@ -1473,10 +1477,12 @@ Full tech stack [here](/techstack.md)
 |[karma-mocha](https://www.npmjs.com/karma-mocha)|v1.3.0|03/30/19|erwanlr |MIT|N/A|
 |[karma-phantomjs-launcher](https://www.npmjs.com/karma-phantomjs-launcher)|v1.0.4|03/30/19|erwanlr |MIT|N/A|
 |[karma-spec-reporter](https://www.npmjs.com/karma-spec-reporter)|v0.0.32|03/30/19|erwanlr |MIT|N/A|
+|[laravel-mix](https://www.npmjs.com/laravel-mix)|v1.7.2|05/29/21|erwanlr |MIT|N/A|
 |[lazypipe](https://www.npmjs.com/lazypipe)|v1.0.1|10/20/18|erwanlr |MIT|N/A|
 |[less-loader](https://www.npmjs.com/less-loader)|v5.0.0|05/21/21|erwanlr |MIT|N/A|
 |[less-plugin-autoprefix](https://www.npmjs.com/less-plugin-autoprefix)|v1.5.1|09/26/18|Ryan Dewhurst |Apache-2.0|N/A|
 |[less-plugin-clean-css](https://www.npmjs.com/less-plugin-clean-css)|v1.5.1|09/26/18|Ryan Dewhurst |Apache-2.0|N/A|
+|[lint-staged](https://www.npmjs.com/lint-staged)|v8.1.3|06/19/21|erwanlr |MIT|N/A|
 |[load-grunt-config](https://www.npmjs.com/load-grunt-config)|v0.19.2|03/30/19|erwanlr |MIT|N/A|
 |[load-grunt-tasks](https://www.npmjs.com/load-grunt-tasks)|v3.3.0|03/30/19|erwanlr |MIT|N/A|
 |[load-json-file](https://www.npmjs.com/load-json-file)|v4.0.0|07/11/21|erwanlr |MIT|N/A|
@@ -1569,6 +1575,7 @@ Full tech stack [here](/techstack.md)
 |[run-sequence](https://www.npmjs.com/run-sequence)|v1.1.2|10/20/18|erwanlr |MIT|N/A|
 |[sanitize-html](https://www.npmjs.com/sanitize-html)|v1.16.3|09/26/18|Ryan Dewhurst |MIT|[CVE-2021-26540](https://github.com/advisories/GHSA-mjxr-4v3x-q3m4) (Moderate)<br/>[CVE-2021-26539](https://github.com/advisories/GHSA-rjqq-98f6-6j3r) (Moderate)|
 |[sass-loader](https://www.npmjs.com/sass-loader)|v10.2.0|05/29/21|erwanlr |MIT|N/A|
+|[semantic-release](https://www.npmjs.com/semantic-release)|v15.12.4|03/30/19|erwanlr |MIT|[CVE-2020-26226](https://github.com/advisories/GHSA-r2j6-p67h-q639) (High)|
 |[semantic-release-cli](https://www.npmjs.com/semantic-release-cli)|v4.0.12|03/30/19|erwanlr |MIT|N/A|
 |[semistandard](https://www.npmjs.com/semistandard)|N/A|07/15/22|erwanlr |MIT|N/A|
 |[semver](https://www.npmjs.com/semver)|v5.3.0|03/19/23|erwanlr |ISC|[CVE-2022-25883](https://github.com/advisories/GHSA-c2qf-rxjj-qqgw) (Moderate)|
@@ -1585,6 +1592,7 @@ Full tech stack [here](/techstack.md)
 |[stylus-loader](https://www.npmjs.com/stylus-loader)|v3.0.1|02/24/20|erwanlr |MIT|N/A|
 |[svg-inline-loader](https://www.npmjs.com/svg-inline-loader)|v0.8.2|10/08/22|erwanlr |MIT|N/A|
 |[svg-url-loader](https://www.npmjs.com/svg-url-loader)|v3.0.2|02/24/20|erwanlr |MIT|N/A|
+|[svgo](https://www.npmjs.com/svgo)|v1.3.2|05/02/20|erwanlr |MIT|N/A|
 |[sweetalert2](https://www.npmjs.com/sweetalert2)|v8.17.1|01/25/20|erwanlr |MIT|N/A|
 |[tailwindcss](https://www.npmjs.com/tailwindcss)|v1.2.0|04/11/20|erwanlr |MIT|N/A|
 |[tar](https://www.npmjs.com/tar)|v2.2.1|03/19/23|erwanlr |ISC|[CVE-2021-37712](https://github.com/advisories/GHSA-qq89-hq3f-393p) (High)<br/>[CVE-2021-37713](https://github.com/advisories/GHSA-5955-9wpr-37jh) (High)<br/>[CVE-2021-32803](https://github.com/advisories/GHSA-r628-mhmh-qjhw) (High)<br/>[CVE-2018-20834](https://github.com/advisories/GHSA-j44m-qm6p-hp7m) (High)<br/>[CVE-2021-37701](https://github.com/advisories/GHSA-9r2w-394v-53qc) (High)<br/>[CVE-2021-32804](https://github.com/advisories/GHSA-3jfq-g458-7qm9) (High)|
@@ -1633,6 +1641,7 @@ Full tech stack [here](/techstack.md)
 |[wiredep](https://www.npmjs.com/wiredep)|v2.2.2|10/20/18|erwanlr |MIT|N/A|
 |[yargs](https://www.npmjs.com/yargs)|v15.4.1|09/26/18|Ryan Dewhurst |MIT|N/A|
 |[yargs-parser](https://www.npmjs.com/yargs-parser)|v18.1.3|04/28/22|erwanlr |ISC|N/A|
+|[yup](https://www.npmjs.com/yup)|v0.26.10|12/05/21|erwanlr |MIT|N/A|
 
 
 ## <img width='24' height='24' src='https://img.stackshare.io/package_manager/1778/default_90cb8b66e85ae5b95928b10bb076ab6a27c7e151.png'/> Packagist (63)
