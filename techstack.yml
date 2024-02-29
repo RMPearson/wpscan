@@ -2,7 +2,7 @@ repo_name: RMPearson/wpscan
 report_id: a2e57671fb507bc0fd2b6b95c6d018b6
 version: 0.1
 repo_type: Public
-timestamp: '2024-01-05T08:29:46+00:00'
+timestamp: '2024-02-29T19:04:08+00:00'
 requested_by: erwanlr
 provider: github
 branch: master
@@ -75,7 +75,7 @@ tools:
   last_updated_by: Ryan Dewhurst
   last_updated_on: 2018-09-26 19:12:01.000000000 Z
 - name: Swift
-  description: 'An innovative new programming language for Cocoa and Cocoa Touch. '
+  description: An innovative new programming language for Cocoa and Cocoa Touch.
   website_url: https://developer.apple.com/swift/
   license: Apache-2.0
   open_source: true
@@ -598,7 +598,7 @@ tools:
   last_updated_by: Ryan Dewhurst
   last_updated_on: 2018-09-26 19:12:01.000000000 Z
 - name: Bundler
-  description: 'A consistent environment for tracking and installing  gems and versions '
+  description: A consistent environment for tracking and installing  gems and versions
   website_url: http://bundler.io
   open_source: false
   hosted_saas: false
@@ -927,7 +927,7 @@ tools:
   last_updated_by: erwanlr
   last_updated_on: 2019-03-30 07:20:14.000000000 Z
 - name: Prettier
-  description: 'Prettier is an opinionated code formatter. '
+  description: Prettier is an opinionated code formatter.
   website_url: https://prettier.io/
   version: 2.2.1
   license: MIT
@@ -4939,6 +4939,12 @@ tools:
   last_updated_by: erwanlr
   last_updated_on: 2023-03-19 18:28:09.000000000 Z
   vulnerabilities:
+  - name: hoek subject to prototype pollution via the clone function.
+    cve_id: CVE-2020-36604
+    cve_url: https://github.com/advisories/GHSA-c429-5p7v-vgjp
+    detected_date: Feb 8
+    severity: high
+    first_patched: 
   - name: Prototype Pollution in hoek
     cve_id: CVE-2018-3728
     cve_url: https://github.com/advisories/GHSA-jp4x-w63m-7wgm
@@ -7091,13 +7097,6 @@ tools:
   last_updated_by: erwanlr
   last_updated_on: 2023-03-19 18:28:09.000000000 Z
   vulnerabilities:
-  - name: Arbitrary File Creation/Overwrite via insufficient symlink protection due
-      to directory cache poisoning using symbolic links
-    cve_id: CVE-2021-37712
-    cve_url: https://github.com/advisories/GHSA-qq89-hq3f-393p
-    detected_date: Sep 1
-    severity: high
-    first_patched: 4.4.18
   - name: Arbitrary File Creation/Overwrite on Windows via insufficient relative path
       sanitization
     cve_id: CVE-2021-37713
@@ -7105,26 +7104,12 @@ tools:
     detected_date: Sep 1
     severity: high
     first_patched: 4.4.18
-  - name: Arbitrary File Creation/Overwrite via insufficient symlink protection due
-      to directory cache poisoning
-    cve_id: CVE-2021-32803
-    cve_url: https://github.com/advisories/GHSA-r628-mhmh-qjhw
-    detected_date: Aug 22
-    severity: high
-    first_patched: 3.2.3
   - name: Arbitrary File Overwrite in tar
     cve_id: CVE-2018-20834
     cve_url: https://github.com/advisories/GHSA-j44m-qm6p-hp7m
     detected_date: Aug 22
     severity: high
     first_patched: 2.2.2
-  - name: Arbitrary File Creation/Overwrite via insufficient symlink protection due
-      to directory cache poisoning using symbolic links
-    cve_id: CVE-2021-37701
-    cve_url: https://github.com/advisories/GHSA-9r2w-394v-53qc
-    detected_date: Sep 1
-    severity: high
-    first_patched: 4.4.16
   - name: Arbitrary File Creation/Overwrite due to insufficient absolute path sanitization
     cve_id: CVE-2021-32804
     cve_url: https://github.com/advisories/GHSA-3jfq-g458-7qm9
